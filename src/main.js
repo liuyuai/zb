@@ -17,6 +17,9 @@ Vue.use(ElementUI);
 Vue.config.productionTip = false;
 
 
+console.log('3213');
+
+
 axios.interceptors.request.use(function (config) {
   config.withCredentials = true;
   // config.headers['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
